@@ -1,0 +1,13 @@
+img {
+  opacity: 0.9;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+  background-size: cover;
+}
+.jumbotron{
+  opacity: 0.6;
+  filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+h1{
+  font-family: poppings;
+}
+

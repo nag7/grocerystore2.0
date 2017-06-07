@@ -1,0 +1,35 @@
+<!--<div class="jumbotron">-->
+<!--<p>-->
+  <!--Comming Soon!!!!-->
+<!--</p>-->
+<!--</div>-->
+<!--<div class="jumbotron">-->
+  <!--<p>-->
+    <!--Comming Soon!!!!-->
+  <!--</p>-->
+<!--</div>-->
+<!--<div class="panel panel-danger">-->
+  <!--<div class="panel-heading">-->
+    <!--<h3 class="panel-title">Panel danger</h3>-->
+  <!--</div>-->
+  <!--<div class="panel-body">-->
+    <!--Panel content-->
+  <!--</div>-->
+<!--</div>-->
+
+<!--<div class="panel panel-info">-->
+  <!--<div class="panel-heading">-->
+    <!--<h3 class="panel-title">Panel info</h3>-->
+  <!--</div>-->
+  <!--<div class="panel-body">-->
+    <!--Panel content-->
+  <!--</div>-->
+<!--</div>-->
+<ul *ngFor="let store of stores">
+  <li>
+    <h2>id:{{store.id}}</h2>
+    <h2>name:{{store.name}}</h2>
+    <h2>Gps:{{store.latitude}}{{store.longitude}}</h2>
+    <h3>address:{{store.address}}</h3>
+  </li>
+</ul>
